@@ -10,6 +10,8 @@
 
 # production
 /build
+/frontend
+/Diagrams
 
 # misc
 .DS_Store
