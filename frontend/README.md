@@ -9,7 +9,7 @@ A Convenient Way for Clients to Report Issues with Software.
 * [Technologies](#technologies)
 * [Languages](#languages)
 * [Features](#features)
-* [Inspiration](#inspiration)
+* [Inspiration](#inspiration)g
 * [Developers](#developers)
 
 
