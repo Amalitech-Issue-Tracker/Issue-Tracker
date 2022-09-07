@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Issue Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Convenient Way for Clients to Report Issues with Software.
 
 ## Available Scripts
 
