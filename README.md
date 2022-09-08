@@ -56,5 +56,22 @@ The Admin UI allows Admin to:
 * View all assigned clients with the following details: (ID, name, email, organisation).
 * Edit clients and archive clients.
 
-The API also contains endpoints that returns filing data for ssnit and gra for a given month.
+The API's used are the following:
+cloudinary api
+twilio api with sendgrid
+jira api with jira-connector
 Refer to the Swagger docs for more info.
+
+## Status
+
+First release.
+
+## Inspiration
+
+This was a capstone project that climaxed the graduate trainee program by Amalitech Ghana. It was a challenge that we faced with excitement, as this was a huge opportunity to put what we had learned during the program into practice. The thrill of building a whole system from scratch also served as a great form of motivation.
+
+## Developers
+
+[Kabral Alluekeh](https://github.com/Kabral12)
+
+[Aaron Acheampong](https://github.com/Aaron-Acheampong)
