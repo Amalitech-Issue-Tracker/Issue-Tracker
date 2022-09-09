@@ -6,8 +6,8 @@ import HeaderComponent from "../components/headercomponent";
 import SideBarComponent from "../components/sidebarcomponent";
 import ClientDisplay from "../components/clientsdisplaycomponent";
 import ProjectDisplay from "../components/projectsdisplaycomponent";
-import { persistUser } from "../redux/helperfunctions";
-import { logUser } from "../redux/reducers/usersSlice";
+import { persistUser } from "../utils/helperfunctions";
+import { logUser } from "../utils/reducers/usersSlice";
 import SettingsComponent from "../components/settingscomponent";
 import IssuesDisplay from "../components/issuesdisplaycomponent";
 

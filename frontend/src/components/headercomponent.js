@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
-import { removeUser } from "../redux/reducers/usersSlice";
+import { removeUser } from "../utils/reducers/usersSlice";
 
 
 export default function HeaderComponent() {
