@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import { NavLink } from "react-router-dom";
-import { getLocation } from '../utils/helperfunctions';
+import { getLocation } from '../redux/helperfunctions';
 
 export default function SideBarComponent() {
     const usertype = useSelector((state)=> state.user.userType)
