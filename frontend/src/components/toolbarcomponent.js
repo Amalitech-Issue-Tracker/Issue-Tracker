@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { getLocation } from "../redux/helperfunctions";
+import { getLocation } from "../utils/helperfunctions";
 
 
 export default function ToolBarComponent({ setComplain, setClient }) {

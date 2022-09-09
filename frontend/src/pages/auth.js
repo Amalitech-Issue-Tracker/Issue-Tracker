@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { connect } from "react-redux";
-import { logUser } from "../redux/reducers/usersSlice";
+import { logUser } from "../utils/reducers/usersSlice";
 
 
 class Authentication extends React.Component{

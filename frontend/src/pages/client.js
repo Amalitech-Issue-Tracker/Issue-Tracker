@@ -4,8 +4,8 @@ import { Routes, Route } from "react-router-dom";
 
 import HeaderComponent from "../components/headercomponent";
 import SideBarComponent from "../components/sidebarcomponent";
-import { logUser } from "../redux/reducers/usersSlice";
-import { persistUser } from "../redux/helperfunctions";
+import { logUser } from "../utils/reducers/usersSlice";
+import { persistUser } from "../utils/helperfunctions";
 import SettingsComponent from "../components/settingscomponent";
 import ClientIssues from "../components/issuescomponent";
 
