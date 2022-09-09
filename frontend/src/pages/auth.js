@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { connect } from "react-redux";
-import { logUser } from "../redux/reducers/usersSlice";
+import { logUser } from "../utils/reducers/usersSlice";
 
 
 class Authentication extends React.Component{
@@ -41,8 +41,8 @@ class Authentication extends React.Component{
 
             if(loginRequest.status === 200){
                 const data = await loginRequest.data;
-                localStorage.setItem("user", JSON.stringify({usertype: data.user.usertype, userId: data.user._id}));
-                this.props.logUser({usertype: data.user.usertype, userId: data.user._id})
+                localStorage.setItem("user", JSON.stringify({usertype: data.user.usertype, userId: data.user._id.toString(), firstlogin: data.user.firstlogin}));
+                this.props.logUser({usertype: data.user.usertype, userId: data.user._id, firstlogin: data.user.firstlogin})
                 document.cookie = `accesstoken=${data.accessToken}; max-age=14400; SameSite=Lax; Secure`;
             }
         }
