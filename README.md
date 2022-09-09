@@ -57,9 +57,9 @@ The Admin UI allows Admin to:
 * Edit clients and archive clients.
 
 The API's used are the following:
-*Cloudinary api
-*Twilio api with sendgrid
-*Jira api with jira-connector
+* Cloudinary api
+* Twilio api with sendgrid
+* Jira api with jira-connector
 Refer to the Swagger docs for more info.
 
 ## Status
