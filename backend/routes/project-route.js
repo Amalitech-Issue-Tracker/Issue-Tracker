@@ -5,7 +5,7 @@ const Issues = require("../models/issues");
 
 /** 
 * @swagger
-* /api/v1/issues:
+* /api/v1/project:
 *   get:
 *       description: get all issues from jira
 *       response:
@@ -15,23 +15,11 @@ const Issues = require("../models/issues");
 route.get("/", (req, res) => {
     
     res.json({
-        "issues": [
+        "projects": [
 
         ]
     })
 })
 
-/** 
-* @swagger
-* /api/v1/issues:
-*   post:
-*       description: get all issues from jira
-*       response:
-*           '200': good response
-*
-*/
-route.post("/", (req, res)=>{
-    console.log(req.body);
-})
 
 module.exports = route;
