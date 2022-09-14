@@ -20,7 +20,7 @@ A web application that enables clients to report issues. The platform interact w
 
 ![Screenshot of Login GUI](Screenshot.png)
 
-![Screenshot of Admin Dashboard GUI]()
+![Screenshot of Admin Dashboard GUI](Screenshot_1.png)
 
 ![Screenshot of Client Dashboard GUI]()
 
@@ -33,6 +33,7 @@ A web application that enables clients to report issues. The platform interact w
 * HTML
 * CSS
 * React
+* Redux Toolkit
 
 ## Languages
 
