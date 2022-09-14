@@ -20,9 +20,8 @@ A web application that enables clients to report issues. The platform interact w
 
 ![Screenshot of Login GUI](Screenshot.png)
 
-![Screenshot of Admin Dashboard GUI](Screenshot_1.png)
+![Screenshot of Admin Dashboard GUI](Screenshot1.png)
 
-![Screenshot of Client Dashboard GUI]()
 
 ## Technologies
 
