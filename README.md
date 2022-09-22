@@ -28,7 +28,7 @@ A web application that enables clients to report issues. The platform interact w
 * Node and Node Package Manager
 * Git & GitHub
 * Express
-* Postgres
+* Mongodb
 * HTML
 * CSS
 * React
